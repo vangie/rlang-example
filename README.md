@@ -94,7 +94,7 @@ $ fcli function invoke -s rlang -f onePlusOne
 
 ## 编译 R 语言
 
-预编译好的 R 语言环境、rpy2 库以及相关的 apt 依赖文件已经放置在 .fun 目录下了，正常使用不用自行编译 R 语言，编译一次在MacBook Pro 15 上大概需要半个小时左右。假如当前的 R 语言的编译选项不满足业务需求可以参考一下 fun.yml 文件，该文件有完整的编译和安装方法，进行适当调整后使用 `fun install` 命令安装即可。
+预编译好的 R 语言环境、rpy2 库以及相关的 apt 依赖文件已经放置在 [.fun](https://github.com/vangie/rlang-example/tree/master/%7B%7BprojectName%7D%7D/.fun) 目录下了，正常使用不用自行编译 R 语言，编译一次在 MacBook Pro 15 上大概需要半个小时左右。假如当前的 R 语言的编译选项不满足业务需求可以参考一下 [fun.yml](https://github.com/vangie/rlang-example/blob/master/%7B%7BprojectName%7D%7D/fun.yml) 文件，该文件有完整的编译和安装方法，进行适当调整后使用 `fun install` 命令安装即可。
 
 ## 参考阅读
 
